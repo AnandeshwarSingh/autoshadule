@@ -12,7 +12,7 @@ import org.anand.service.*;
 import org.anand.service.AdminService;
 import org.anand.service.AdminServiceImpl;
 
-public class AutomaticInterviewSchedulingSystemClientApp {
+public class AutomaticInterviewSchedulingSystemClientApp { //main class
 	public static void main(String args[]) {
 		AdminService adminService = new AdminServiceImpl();
 		HRService hrService = new HRServiceImpl();
